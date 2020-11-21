@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="top.omooo.plugin_package">
+    package="com.github.plugin_package">
 
     <application
         android:allowBackup="false"
@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".PluginActivity">
+        <activity android:name="com.github.plugin_package.PluginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <receiver
-            android:name=".TestStaticReceiver"
+            android:name="com.github.plugin_package.TestStaticReceiver"
             android:permission="@null">
             <intent-filter>
                 <action android:name="static_receiver" />

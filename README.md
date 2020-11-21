@@ -1,8 +1,3 @@
----
-VirtualApplication
-
----
-
 #### 项目结构
 
 app: 宿主工程
